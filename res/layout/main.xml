@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dip" >
+
+    <TextView
+        android:id="@+id/tvCab"
+        style="@style/TextoAsteroides"
+        android:text="@string/cabecera" />
+
+    <Button
+        android:id="@+id/btJug"
+        style="@style/TextoAsteroides.Botones"
+        android:onClick="lanzarJuego"
+        android:text="@string/jugar"/>
+
+    <Button
+        android:id="@+id/btCon"
+        style="@style/TextoAsteroides.Botones"
+        android:onClick="configuracion"
+        android:text="@string/configurar" />
+
+    <Button
+        android:id="@+id/btAce"
+        style="@style/TextoAsteroides.Botones"
+        android:onClick="lanzarAcercaDe"
+        android:text="@string/acerca" />
+
+    <Button
+        android:id="@+id/btSal"
+        style="@style/TextoAsteroides.Botones"
+        android:onClick="lanzarPuntuaciones"
+        android:text="@string/puntuaciones" />
+
+</LinearLayout>
